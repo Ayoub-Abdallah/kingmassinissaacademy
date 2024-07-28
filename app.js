@@ -23,7 +23,7 @@ const DB_LINK = "mongodb+srv://admin:B7aK8Xynkmob1nbu@cluster0.vcvjrbg.mongodb.n
 
 const LOCAL_LINK = 'mongodb://127.0.0.1:27017/MassinissaAcademy'
 
-mongoose.connect(LOCAL_LINK).
+mongoose.connect(DB_LINK).
     then(() => {
         console.log("connected to database Massinissa Academy");
 })
